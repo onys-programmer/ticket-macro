@@ -6,9 +6,10 @@ import time
 import schedule
 from message_sender import send_msg
 
+
 driver = webdriver.Chrome(ChromeDriverManager().install())
-driver.get("http://m.ticket.yes24.com/Perf/36086")
-# driver.get("http://m.ticket.yes24.com/Perf/Detail/PerfInfo.aspx?IdPerf=43506")
+# driver.get("http://m.ticket.yes24.com/Perf/36086")
+driver.get("http://m.ticket.yes24.com/Perf/Detail/PerfInfo.aspx?IdPerf=43506")
 
 cnt = 0
 
